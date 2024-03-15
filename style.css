@@ -1,0 +1,54 @@
+body {
+    margin: 0; 
+}
+nav h1{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #fff; /* Text color */
+    background-color: #edca00;
+    display: inline-block;
+    position:absolute;
+    left: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    overflow: hidden; /* Clear the float */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    display: inline;
+    margin-left: 20px; /* Adjusted margin from right to left */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative; 
+    border-bottom: 2px solid; 
+}
+
+a:hover {
+    color: #ffd700; 
+    border-bottom-color: #ffd700; /
+}
+
+header {
+    background-image: /Users/harrishurley/Desktop/Employment-Portfolio/comhiclipartdpjkx.jpg;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
