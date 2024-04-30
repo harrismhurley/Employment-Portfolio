@@ -13,23 +13,36 @@ body {
     color: #fff;
     padding: 15px;
     font-size: 20px;
-    line-height: 1.5;
     display: flex;
+    justify-content: space-between;
+}
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    padding: 15px;
+    list-style: none;
+    flex-direction: row;
 }
 
 
 /* Image Header */
 #imgHeader{
-    background-image: url(./Images/BackgroundHeaderImage.jpeg);
-    
+    background-image: url(./Images/BackgroundDallas.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: fill;
+    background-size:cover;
     padding-top: 70px;
     padding-bottom: 30px;
+    display: flex; 
+    justify-content: flex-end;
 }
-#imgHeader p{
+#imgHeader h2{
     color: white;
+    font-size: 30px;
+    padding: 30px;
+    background-color: #639ef5;
 }
 
 /* About Me */
