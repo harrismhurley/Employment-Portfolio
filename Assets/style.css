@@ -8,30 +8,30 @@ body {
 }
 
 /* Nav Bar */
-/* Nav Bar */
 .nav {
     background-color: #333;
     color: #fff;
-    padding: 15px;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
 }
-
-
+.nav h1{
+    background-color: #639ef5;
+    padding: 5px;
+    padding-left: 20px;
+}
 .nav a {
     color: #fff;
     text-decoration: none;
+    padding-right: 15px;
 }
 .nav a:hover{
     color: #639ef5;
     text-decoration: underline;
 }
-
 .nav ul {
     display: flex;
 }
-
 .nav li {
     padding: 15px;
     list-style: none;
@@ -60,10 +60,18 @@ body {
 
 /* About Me */
 #aboutMe{
-    background-color: aquamarine;
     margin: 10px;
+    display: flex;
 }
-
+#aboutMeL{
+    width: 25%;
+    border-right: #639ef5 solid 6px;
+}
+#aboutMeR{
+    background-color: rgb(212, 255, 0);
+    flex-grow: 1;
+    padding: 10px;
+}
 /* Work */
 #work{
     background-color: bisque;
