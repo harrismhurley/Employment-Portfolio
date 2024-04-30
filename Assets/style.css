@@ -76,7 +76,9 @@ body {
 #work{
     background-color: bisque;
     margin: 10px;
+    display: flex;
 }
+
 
 /* Contact Me */
 #contactMe{
