@@ -20,8 +20,16 @@ body {
 
 /* Image Header */
 #imgHeader{
-    background-image: url(./Images/ImgHeader.jpg);
-    background-size: auto auto;
+    background-image: url(./Images/BackgroundHeaderImage.jpeg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+#imgHeader p{
+    color: white;
 }
 
 /* About Me */
