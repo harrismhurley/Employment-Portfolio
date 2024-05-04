@@ -1,10 +1,9 @@
 body {
-    margin: 10px; 
+    margin: 10px;
     border: solid black 5px;
-    height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 
 /* Nav Bar */
@@ -39,7 +38,6 @@ body {
 }
 
 
-
 /* Image Header */
 #imgHeader{
     background-image: url(./Images/BackgroundDallas.png);
@@ -54,34 +52,74 @@ body {
 #imgHeader h2{
     color: white;
     font-size: 30px;
-    padding: 30px;
+    padding: 20px;
     background-color: #639ef5;
 }
 
-/* About Me */
-#aboutMe{
-    margin: 10px;
+/* about me */
+#abtMe{
+    width: auto;
+    position: relative;
     display: flex;
+    margin: 30px;
 }
-#aboutMeL{
-    width: 25%;
-    border-right: #639ef5 solid 6px;
+#abtMeL{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    border-right: #333 solid 3px;
 }
-#aboutMeR{
-    background-color: rgb(212, 255, 0);
-    flex-grow: 1;
+#abtMeR{
+    padding: 15px;
+    width: 70%;
+    overflow: hidden;
+}
+
+/* work */
+#work{
+    width: auto;
+    position: relative;
+    display: flex;
+    margin: 30px;
+}
+#workL{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    border-right: #333 solid 3px;
+}
+#workR{
+    padding: 15px;
+    width: 70%;
+    overflow: hidden;
+}
+
+/* contact */
+#contact{
+    width: auto;
+    position: relative;
+    display: flex;
+    margin: 30px;
+}
+#contactL{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    border-right: #333 solid 3px;
+}
+#contactR{
+    padding: 15px;
+    width: 70%;
+    overflow: hidden;
+}
+#contactR li{
+    list-style: none;
+    display: inline;
     padding: 10px;
 }
-/* Work */
-#work{
-    background-color: bisque;
-    margin: 10px;
-    display: flex;
-}
-
-
-/* Contact Me */
-#contactMe{
-    background-color: blue;
-    margin: 10px;
+#contacrR li a{
+    
 }
