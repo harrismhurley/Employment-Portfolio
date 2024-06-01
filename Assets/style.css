@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.nav h1{
+.nav h1 {
     background-color: #639ef5;
     padding: 5px;
     padding-left: 20px;
@@ -24,7 +24,7 @@ body {
     text-decoration: none;
     padding-right: 15px;
 }
-.nav a:hover{
+.nav a:hover {
     color: #639ef5;
     text-decoration: underline;
 }
@@ -37,19 +37,18 @@ body {
     flex-direction: row;
 }
 
-
 /* Image Header */
-#imgHeader{
+#imgHeader {
     background-image: url(./Images/BackgroundDallas.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     padding-top: 70px;
     padding-bottom: 30px;
     display: flex; 
     justify-content: flex-end;
 }
-#imgHeader h2{
+#imgHeader h2 {
     color: white;
     font-size: 30px;
     padding: 20px;
@@ -57,69 +56,121 @@ body {
 }
 
 /* about me */
-#abtMe{
+#abtMe {
     width: auto;
     position: relative;
     display: flex;
     margin: 30px;
 }
-#abtMeL{
+#abtMeL {
     width: 30%;
     display: flex;
     justify-content: end;
     padding: 20px;
     border-right: #333 solid 3px;
 }
-#abtMeR{
+#abtMeR {
     padding: 15px;
     width: 70%;
     overflow: hidden;
 }
 
 /* work */
-#work{
+#work {
     width: auto;
     position: relative;
     display: flex;
     margin: 30px;
 }
-#workL{
+#workL {
     width: 30%;
     display: flex;
     justify-content: end;
     padding: 20px;
     border-right: #333 solid 3px;
 }
-#workR{
+#workR {
     padding: 15px;
     width: 70%;
     overflow: hidden;
 }
 
+.workContentMain {
+    width: auto;
+    margin-bottom: 10px;
+    background-image: url(./Images/companyDB.png);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    border: 10px solid #639ef5;
+}
+
+.workContentBottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    
+}
+
+.workContentSmall {
+    margin: 5px;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+    height: 250px;  
+}
+
+#work1 {
+    background-image: url(./Images/taskManager.png);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #639ef5;
+}
+
+#work2 {
+    background-image: url(./Images/blogPost.png);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #639ef5;
+}
+
+#work3 {
+    background-image: url(./Images/employeeTrack.png);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #639ef5;
+}
+
+#work4 {
+    background-image: url(./Images/noteTaker.png);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #639ef5;
+}
+
 /* contact */
-#contact{
+#contact {
     width: auto;
     position: relative;
     display: flex;
     margin: 30px;
 }
-#contactL{
+#contactL {
     width: 30%;
     display: flex;
     justify-content: end;
     padding: 20px;
     border-right: #333 solid 3px;
 }
-#contactR{
+#contactR {
     padding: 15px;
     width: 70%;
     overflow: hidden;
 }
-#contactR li{
+#contactR li {
     list-style: none;
     display: inline;
     padding: 10px;
-}
-#contacrR li a{
-    
 }
